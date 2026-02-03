@@ -49,6 +49,7 @@ function showProperties(data) {
 }
 
 
+
 function searchProperty() {
   const city = document.getElementById("city").value.toLowerCase();
   const bhk = document.getElementById("bhk").value;

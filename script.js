@@ -3,19 +3,22 @@ const properties = [
     city: "Delhi",
     bhk: "2 BHK",
     price: "₹45 Lakh",
-    image: "https://via.placeholder.com/400x250"
+image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+
   },
   {
     city: "Mumbai",
     bhk: "3 BHK",
     price: "₹1.2 Cr",
-    image: "https://via.placeholder.com/400x250"
+image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+
   },
   {
     city: "Noida",
     bhk: "1 BHK",
     price: "₹30 Lakh",
-    image: "https://via.placeholder.com/400x250"
+image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+
   }
 ];
 

@@ -30,11 +30,21 @@ function showProperties(data) {
         <h3>${p.bhk} Apartment</h3>
         <p>${p.city}</p>
         <p class="price">${p.price}</p>
-        <button>Contact Owner</button>
+
+        <a class="whatsapp"
+           href="https://wa.me/919876543210?text=I am interested in your property in ${p.city}"
+           target="_blank">
+           WhatsApp Owner
+        </a>
+
+        <a class="call" href="tel:9876543210">
+           Call Owner
+        </a>
       </div>
     `;
   });
 }
+
 
 function searchProperty() {
   const city = document.getElementById("city").value.toLowerCase();
